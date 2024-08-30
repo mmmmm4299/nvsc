@@ -1,1 +1,1 @@
-if "%out%" == "vlist" set "out=https://github.com/mmmmm4299/nvsc/raw/main/versions.suzar"
+if "%out%" == "vlist" set "out=https://raw.githubusercontent.com/mmmmm4299/nvsc/main/versions.suzar"
