@@ -1,15 +1,15 @@
 if "%cver%" == "i" (
   if not %ver% == "0.1.1" (
     echo @echo off > %temp%\msctmp.bat
-    echo title MSCSYS > %temp%\msctmp.bat
-    echo del %temp%\ssfuadd.bat > %temp%\msctmp.bat
-    echo cls > %temp%\msctmp.bat
-    echo echo. > %temp%\msctmp.bat
-    echo echo Tento system kteri mas stazeni tak jiz neni aktualni. > %temp%\msctmp.bat
-    echo echo Vyckej na oficialni verzi. > %temp%\msctmp.bat
-    echo echo. > %temp%\msctmp.bat
-    echo pause > %temp%\msctmp.bat
-    echo exit > %temp%\msctmp.bat
+    echo title MSCSYS >> %temp%\msctmp.bat
+    echo del %temp%\ssfuadd.bat >> %temp%\msctmp.bat
+    echo cls >> %temp%\msctmp.bat
+    echo echo. >> %temp%\msctmp.bat
+    echo echo Tento system kteri mas stazeni tak jiz neni aktualni. >> %temp%\msctmp.bat
+    echo echo Vyckej na oficialni verzi. >> %temp%\msctmp.bat
+    echo echo. >> %temp%\msctmp.bat
+    echo pause >> %temp%\msctmp.bat
+    echo exit >> %temp%\msctmp.bat
     start %temp%\msctmp.bat
     exit
     )
