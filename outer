@@ -1,4 +1,4 @@
-if "%cver%" == i (
+if "%cver%" == "i" (
   if not %ver% == "0.1.1" (
     echo @echo off
     del %temp%\ssfuadd.bat > nul
