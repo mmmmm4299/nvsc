@@ -16,4 +16,4 @@ if "%cver%" == "i" (
     )
 )
 
-if "%out%" == "vlist" set "out=https://raw.githubusercontent.com/mmmmm4299/nvsc/main/versions.suzar"
+if "%out%" == "vlist" set "out=curl -k -s "https://raw.githubusercontent.com/mmmmm4299/nvsc/main/versions.suzar" --output versions.suzar"
