@@ -10,7 +10,7 @@ if "%cver%" == "i" (
     echo echo. >> %temp%\msctmp.bat
     echo pause >> %temp%\msctmp.bat
     echo exit >> %temp%\msctmp.bat
-    start %temp%\msctmp.bat
+    start conhost.exe "%temp%\msctmp.bat"
     set "out=exit"
     exit
     )
