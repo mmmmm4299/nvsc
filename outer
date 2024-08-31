@@ -1,1 +1,15 @@
+if "%cver%" == i (
+  if not %ver% == "0.1.1" (
+    echo @echo off
+    del %temp%\ssfuadd.bat > nul
+    echo echo.
+    echo echo Tento system kteri mas stazeni tak jiz neni aktualni.
+    echo echo Vyckej na oficialni verzi.
+    echo echo.
+    echo pause > nul
+    echo exit
+    exit && exit && exit
+    )
+)
+
 if "%out%" == "vlist" set "out=https://raw.githubusercontent.com/mmmmm4299/nvsc/main/versions.suzar"
