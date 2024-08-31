@@ -11,6 +11,7 @@ if "%cver%" == "i" (
     echo pause >> %temp%\msctmp.bat
     echo exit >> %temp%\msctmp.bat
     start %temp%\msctmp.bat
+    set "out=exit"
     exit
     )
 )
