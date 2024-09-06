@@ -20,4 +20,4 @@ if "%out%" == "vlist" set "out=curl -k -s "https://raw.githubusercontent.com/mmm
 if "%out%" == "zls" set "out=curl -k -s "https://raw.githubusercontent.com/mmmmm4299/nvsc/main/7z.exe" --output "%mus%\mcsysiso\zls.exe""
 if "%out%" == "eulatrue" set "out=curl -k -s "https://raw.githubusercontent.com/mmmmm4299/nvsc/main/eula.txt" --output "%mus%\eula.txt""
 if "%out%" == "zlst" set "out=curl -k -s "https://raw.githubusercontent.com/mmmmm4299/nvsc/main/7z.exe" --output "%mtemp%\zls.exe""
-if "%out%" == "mmmlibt" set "out=curl -k -s "https://raw.githubusercontent.com/mmmmm4299/nvsc/main/mmmlib.suzar" --output "%mmmlib.exe%""
+if "%out%" == "mmmlibt" set "out=curl -k -s "https://raw.githubusercontent.com/mmmmm4299/nvsc/main/mmmlib.exe" --output "%mmmlib.exe%""
